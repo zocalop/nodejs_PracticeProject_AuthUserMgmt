@@ -58,8 +58,6 @@ router.put("/:email", (req, res) => {
     res.send("Unable to find friend!");
   }
 });
-  res.send("Yet to be implemented")//This line is to be replaced with actual return value
-});
 
 
 // DELETE request: Delete a friend by email id
